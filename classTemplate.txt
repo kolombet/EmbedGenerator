@@ -1,0 +1,23 @@
+package
+{
+	import flash.display.Sprite;
+	import flash.events.Event;
+
+	public class {{className}}
+	{
+		{{embeds}}
+
+		public function {{className}}():void
+		{
+
+		}
+
+		public static function init():Array
+		{
+			var frames:Array = [
+				{{init}}
+			];
+			return frames;
+		}
+	}
+}
